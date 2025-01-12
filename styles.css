@@ -1,1 +1,17 @@
 /* your code */
+.table{
+	border: 1px solid black;
+	width:100%;
+	height:100%;
+	border-spacing:0;
+	overflow:hidden;
+	border-radius:10px;
+}
+.table thead{
+	background-color:blue;
+	text-align:left;
+	color:white;
+}
+.table tbody tr:nth-child(even){
+	background-color:#D5D5D5;
+}
